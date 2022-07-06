@@ -2,3 +2,6 @@ hi this is first file
 this is trying to commit from git bash to github
 This is third line
 This is fourth line added to github on 31Mar2022 20:33
+
+This is 5th line
+today date is 6th July 2022

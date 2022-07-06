@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('connecting to git and clone the repository') {
+            steps {
+                git credentialsId: '6d1addd6-f593-46cf-8d35-8fc09969ce2c', url: 'https://github.com/anilkdevops/repo1'
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('release') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
