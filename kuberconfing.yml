@@ -1,0 +1,6 @@
+- Actively involved in migrating onprem apps into Cloud &  provisioning infrastruture using IAC Tools     like Terraform & Ansible.
+- Migrating From KOPS cluster To EKS.
+  Creating that kubenetes/Route53 for eks domain/s3/ resources in eks Account(Aws)
+  Building the Image(circleci) and deploying (terraform Helm Charts)The image in eks 
+- In
+- Building new environments & Performing Canary, Blue-Green, Hot&Cold, Deployments.
